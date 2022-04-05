@@ -22,6 +22,9 @@ public:
     ContactList operator-=(const Contact* c) {
         list.removeOne(*c);
     }
+    ContactList operator>>(const Contact c){
+        this->add(c);
+    }
 };
 
 #endif //HW03_CONTACTLIST_H

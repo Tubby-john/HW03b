@@ -15,6 +15,7 @@ private:
     QString city;
     QString phoneNumber;
 public:
+    Contact();
     Contact(int cat, QString fn, QString ln, QString add, QString zip, QString city, QString phone);
     QString toString();
     QString getPhone();

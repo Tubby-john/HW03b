@@ -4,6 +4,7 @@
 #include <QString>
 #include "Contact.h"
 
+Contact::Contact() {}
 Contact::Contact(int cat, QString fn, QString ln, QString add, QString zip, QString _city, QString phone){
     category = cat;
     firstName = fn;
